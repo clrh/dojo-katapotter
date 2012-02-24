@@ -1,4 +1,34 @@
+Introduction au coding dojo
+
+>>> 24/02/2012 - lancement d'une série
+
+L'heure va passer très vite, pour une première, l'objectif est de comprendre le principe du dojo et de s'essayer à un petit exercice (que je -Claire- doit choisir) de développement ensemble - apportez vos neurones, votre énergie et votre motivation…
+Qu'est ce que c'est pour vous? Kata ? Dojo ? Coding ?
+= Lieu d'entraînement
+Sûr: on peut se tromper / ne pas savoir faire
+Ouvert: tous les niveaux
+Contraintes: apprendre / partager / s'amuser
+Valeurs du dojo: Respect / Courage / Communication
+Principes: 
+  - Simplicité
+  - feedback
+  - build quality in product
+  - A la vitesse du plus lent: stop si comprends pas
+  - Debrief à la fin (qu'a t on appris? était ce fun? un entraînement c'est tous les combien?)
+Formats:
+  - Kata: 1 personne qui montre et qui réalise une performance
+  - Randori: binôme qui tourne toutes les 7 minutes
+Sujets?
+  - puzzles
+  - découvertes
+  - outillage pour l'entreprise
+Liste récupéré/inspirée d'une prez http://xxxx
+
+>>> Go!
+
 http://codingdojo.org/cgi-bin/wiki.pl?KataPotter
+
+Cas de test:
 
 (1) = 8
 (2) = 8
