@@ -1,5 +1,8 @@
 Introduction au coding dojo
 
+testcase file: kata spec and link and test cases
+debrief file: retrospective
+
 >>> 24/02/2012 - lancement d'une série
 
 L'heure va passer très vite, pour une première, l'objectif est de comprendre le principe du dojo et de s'essayer à un petit exercice (que je -Claire- doit choisir) de développement ensemble - apportez vos neurones, votre énergie et votre motivation…
@@ -41,19 +44,3 @@ Petits pas:
 http://referentiel.institut-agile.fr/iterative.html
 http://referentiel.institut-agile.fr/incremental.html
 
->>> Go!
-
-http://codingdojo.org/cgi-bin/wiki.pl?KataPotter
-
-Cas de test:
-
-(1) = 8
-(2) = 8
-(1,2) = 2 * 8 * 0.95
-(1,1) = 2 * 8
-(1,2,3) = 3 * 8 * 0.9
-(1,2,3,4) = 4 * 8 * 0.8
-(1,2,3,4,5) = 5 * 8 * 0.75
-(1,2,3,1) = 8 * 3 * 0.9 + 8
-(1,1,2,2,3,3,4,5) = (1,2,3,4) + (1,2,3,5)
-(1,1,2,2,3) = (1,2,3) + (1,2)
