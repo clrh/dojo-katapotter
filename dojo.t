@@ -1,10 +1,8 @@
 #!/usr/bin/perl
 use Test::More;
 
-my $nb_test = 2;
+my $nb_test = 3;
 plan tests => $nb_test;
-
-BEGIN { $nb_test = 2; }
 
 sub price {
   my @booklist=@_;
@@ -20,4 +18,5 @@ sub price {
 }
 
 is(price(1), 8, "1 book = 8€");
-is(price(1,2), 8*2*0.95, "2 book differents");
+is(price(1,2), 8*2*0.95, "2 books differents");
+is(price(1,2,3), 8*3*0.90, "3 books differents");
