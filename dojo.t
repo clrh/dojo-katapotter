@@ -7,12 +7,15 @@ plan tests => $nb_test;
 BEGIN { $nb_test = 2; }
 
 sub price {
-    my @booklist=@_;
-    return 8 if scalar(@booklist)==1;   
-    if (scalar(@booklist)==2)
-    {
-         return 2*8*0.95
-    }
+  my @booklist=@_;
+  my $nb_books=scalar(@booklist);
+  my $remise = {
+  0 => 0,
+  1 => 1,
+  2 => 0.95
+  };
+  return $nb_books*8*$remise->{$nb_books}
+
  
 }
 
