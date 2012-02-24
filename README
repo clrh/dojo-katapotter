@@ -24,6 +24,23 @@ Sujets?
   - outillage pour l'entreprise
 Liste récupéré/inspirée d'une prez http://xxxx
 
+>>> Cadre technique et orga
+
+(1 binôme toutes les 7 minutes)
+
+TDD: Test Driven Developpment
+1/ écrire un test qui fail (rouge)
+2/ écrire un petit bout de code qui fait venir vert le test
+3/ refactorer en passant par des phases de test failed et boucler
+http://referentiel.institut-agile.fr/tdd.html
+
+Pair Programming: 
+http://referentiel.institut-agile.fr/pairing.html
+
+Petits pas:
+http://referentiel.institut-agile.fr/iterative.html
+http://referentiel.institut-agile.fr/incremental.html
+
 >>> Go!
 
 http://codingdojo.org/cgi-bin/wiki.pl?KataPotter
