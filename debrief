@@ -3,6 +3,8 @@ plus:
 + actif même si on est pas dans le binôme
 + suivi à distance skype + screen ok
 + énergie très positive, excitation, fun, fous rires
++ (2) clavier beaucoup mieux
++ (2) continuer de faire des efforts sur le respect du binôme et de l'aide que s'il y a demande d'aide (c'est difficile.... très...)
 
 delta:
 - clavier utilisable seulement pour Claire > brancher un clavier usb classique la prochaine fois ou prendre un autre portable
@@ -10,6 +12,9 @@ delta:
 - trop de bruit / d'interférence : seul le binôme doit être maître de ce qu'il fait sauf s'il demande de l'aide ou s'il y a une suggestion d'amélioration
 - tout le monde ne fait peut pas passer en 1h, pas grave mais la prochaine fois, profiter pour que d'autres passent
 - la prochaine fois commencer par le distant 
+- (2) il faut connaître un éditeur en mode texte (avec vi on peut aider, avec nano c'est le bins)
+- (2) changer le vimrc
 
 autres:
 rester sur le même exercice la prochaine fois pour aller plus loin
+(2) il ne faut plus tarder à faire du vrai refactoring, on s'embourbe dans des switch...
