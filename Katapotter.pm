@@ -14,10 +14,11 @@ sub price {
         3 => 0.90
     };
     my $price;
+    my $unique_books=scalar(uniq(@booklist)) ;
     if($nb_books == 2 and $booklist[0] == $booklist[1]) {
 	$price = 2*$unit_price;
-    } elsif (($nb_books == 3 ) and (scalar(uniq(@booklist)) == 2)) {
-          $price = 2*$unit_price*$remise->{2}+$unit_price;
+    } elsif (($nb_books == 3 ) and ($unique_books == 2)) {
+          $price = $unique_books*$unit_price*$remise->{$unique_books}+$unit_price;
     } else {
 	$price = $nb_books*$unit_price*$remise->{$nb_books};
     }
