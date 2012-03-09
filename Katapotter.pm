@@ -1,6 +1,7 @@
 package Katapotter;
 
 use Modern::Perl;
+use List::MoreUtils qw/uniq/;
 
 sub price {
     my @booklist = @_;
@@ -15,8 +16,10 @@ sub price {
     my $price;
     if($nb_books == 2 and $booklist[0] == $booklist[1]) {
 	$price = 2*$unit_price;
+    } elsif (($nb_books == 3 ) and (scalar(uniq(@booklist)) == 2)) {
+          $price = 2*$unit_price*$remise->{2}+$unit_price;
     } else {
-        $price = $nb_books*$unit_price*$remise->{$nb_books};
+	$price = $nb_books*$unit_price*$remise->{$nb_books};
     }
     return $price;
 }
